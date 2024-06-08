@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("基于2000-2023年国家数据多元回归模型")
+st.title("基于2000-2023年国家数据的多元回归模型")
 year = st.number_input(label = '请输入您要预测的年份', 
                      min_value=0, 
                      value=2023, 
