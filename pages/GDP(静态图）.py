@@ -19,7 +19,7 @@ html_content="""
 
 </head>
 <body >
-    <div id="bd14e2173316479197e29fe816502561" class="chart-container" style="width: 1500px; height:850px; "></div>
+    <div id="bd14e2173316479197e29fe816502561" class="chart-container" style="width: 1000px; height:650px; "></div>
     <script>
         var chart_bd14e2173316479197e29fe816502561 = echarts.init(
             document.getElementById('bd14e2173316479197e29fe816502561'), 'white', {renderer: 'canvas'});
