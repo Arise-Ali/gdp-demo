@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_echarts import st_echarts
+
 
 import inspect
 import streamlit.components.v1 as components
