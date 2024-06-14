@@ -559,7 +559,7 @@ html_content="""
 </html>
 
 """
-components.html(html_content, width=1000px,height:650px)
+components.html(html_content, width:1000px,height:650px)
 
 
 
