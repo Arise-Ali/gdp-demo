@@ -1,6 +1,5 @@
 
 import streamlit as st
-from streamlit_echarts import st_pyecharts
 import streamlit.components.v1 as components
 
 
