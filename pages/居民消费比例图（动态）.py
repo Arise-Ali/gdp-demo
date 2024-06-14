@@ -1,14 +1,10 @@
-from random import randint
-from pyecharts import options as opts       
-from pyecharts.charts import Pie, Timeline
-from pyecharts.globals import ThemeType
-import pandas as pd
-import numpy as np
+
 import streamlit as st
-from streamlit_echarts import st_pyecharts
+
 import streamlit.components.v1 as components
-from bs4 import BeautifulSoup
-import os
+
+
+
 
 
 st.set_page_config(page_title="绘图演示", page_icon="📈",layout="wide",)
