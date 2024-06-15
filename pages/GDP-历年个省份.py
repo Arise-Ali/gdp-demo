@@ -18,7 +18,7 @@ html_content="""
 
 </head>
 <body >
-    <div id="6f8d2685d7d44ab2bc575cb96858ea09" class="chart-container" style="width:1600px; height:900px; "></div>
+    <div id="6f8d2685d7d44ab2bc575cb96858ea09" class="chart-container" style="width:1600px; height:1000px; "></div>
     <script>
         var chart_6f8d2685d7d44ab2bc575cb96858ea09 = echarts.init(
             document.getElementById('6f8d2685d7d44ab2bc575cb96858ea09'), 'dark', {renderer: 'canvas'});
@@ -7524,7 +7524,7 @@ html_content="""
 </html>
 
 """
-components.html(html_content, width=1600,height=900)
+components.html(html_content, width=1600,height=1000)
 
 
 
