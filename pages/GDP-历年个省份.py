@@ -7524,7 +7524,7 @@ html_content="""
 </html>
 
 """
-components.html(html_content, width=1000,height=650)
+components.html(html_content, width=1600,height=900)
 
 
 
