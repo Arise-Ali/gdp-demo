@@ -118,5 +118,5 @@ def getOutterIP():
 my_ip=getOutterIP()
 
 if st.button('确认'):
-    st.success(f'根据模型预估计{year}年GDP为: {gdp:.3f}亿元,ip:{my_ip}')
-
+    #st.success(f'根据模型预估计{year}年GDP为: {gdp:.3f}亿元,ip:{my_ip}')
+    st.success(f'ip:{my_ip}')
