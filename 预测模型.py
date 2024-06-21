@@ -1,5 +1,6 @@
 import streamlit as st
-
+import requests
+import re
 
 import inspect
 import streamlit.components.v1 as components
@@ -104,6 +105,18 @@ hp= st.number_input(label = '请输入您要预计年份的商品房平均房价
                     )
 gdp=rate['people']*people+rate['NX']*NX+rate['I']*I+rate['C']*C+rate['education']*education+rate['un_work']*un_work+rate['hp']*hp+564028.85263155
 gdp=-gdp/10000
+def getOutterIP():
+    ip = ''    
+    try:
+        res = requests.get('https://myip.ipip.net', timeout=5).text
+        ip = re.findall(r'(\d+\.\d+\.\d+\.\d+)', res)
+        ip = ip[0] if ip else ''
+    except:
+        pass
+    return ip
+
+my_ip=getOutterIP()
+
 if st.button('确认'):
-    st.success(f'根据模型预估计{year}年GDP为: {gdp:.3f}亿元')
+    st.success(f'根据模型预估计{year}年GDP为: {gdp:.3f}亿元,ip:{my_ip}')
 
